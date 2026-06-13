@@ -140,7 +140,7 @@ nav ul li a:hover {
 }
 
 #typing {
-  color: #f8fafc;
+  color: #1b7cdd;
   min-height: 50px;
   font-size: 2rem;
   margin-bottom: 20px;
@@ -309,6 +309,69 @@ h2 {
   font-weight: 600;
 }
 
+/* EDUCATION */
+
+.education-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.education-card {
+
+  display: flex;
+
+  gap: 25px;
+
+  margin-bottom: 30px;
+
+  background: rgba(255, 255, 255, .08);
+
+  backdrop-filter: blur(15px);
+
+  border-radius: 20px;
+
+  padding: 25px;
+
+  border-left: 5px solid #38bdf8;
+
+  transition: .3s;
+}
+
+.education-card:hover {
+
+  transform: translateY(-8px);
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, .25);
+}
+
+.education-year {
+
+  min-width: 140px;
+
+  font-weight: 700;
+
+  color: #facc15;
+
+  font-size: 1.1rem;
+}
+
+.education-content h3 {
+  color: #38bdf8;
+  margin-bottom: 8px;
+}
+
+.education-content h4 {
+  color: #e2e8f0;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.education-content p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
 /* PROJECTS */
 
 /* PROJECTS */
@@ -371,6 +434,55 @@ h2 {
   color: #facc15;
 
   font-weight: 600;
+}
+/* ACHIEVEMENTS */
+
+.achievements-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.achievement-card{
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.4s;
+}
+
+.achievement-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,.25);
+
+    border-color:#38bdf8;
+}
+
+.achievement-icon{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.achievement-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.achievement-card p{
+    color:#e2e8f0;
+    line-height:1.7;
 }
 
 /* CONTACT */
