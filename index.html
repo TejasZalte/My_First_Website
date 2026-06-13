@@ -2,315 +2,223 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio — Tejas Zalte</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejas Zalte | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="cursor" id="cursor"></div>
-    <div class="cursor-follower" id="cursorFollower"></div>
+  <nav>
+    <div class="logo">Tejas Zalte</div>
 
-    <nav class="nav" id="nav">
-        <div class="nav-logo"><span class="logo-dot"></span>Tejas Zalte</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
-    </nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <div class="mobile-menu" id="mobileMenu">
-        <ul>
-            <li><a href="#about" class="mobile-link">About</a></li>
-            <li><a href="#skills" class="mobile-link">Skills</a></li>
-            <li><a href="#projects" class="mobile-link">Work</a></li>
-            <li><a href="#contact" class="mobile-link">Contact</a></li>
-        </ul>
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <img src="tejas2..jpeg" class="profile-pic" alt="Profile">
+
+      <h1>Tejas Zalte</h1>
+
+      <div class="contact-bar">
+        <span>📧 tejaszalte1383@gmail.com</span>
+        <span>📱 +91 7821032131</span>
+        <a href="https://www.linkedin.com/in/tejas-zalte-9a7b8b32b/">💼 LinkedIn</a>
+        <a href="https://github.com/TejasZalte">💻 GitHub</a>
+      </div>
+
+      <h2 id="typing"></h2>
+
+      <p>
+        Aspiring Data Analyst & AI Engineer | Power BI, Python, SQL, Excel | Building Data-Driven Solutions
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="Tejas resume.pdf (1).pdf" class="btn btn-outline">Download Resume</a>
+      </div>
+
     </div>
 
-    <!-- HERO -->
-    <section class="hero" id="home">
-        <div class="hero-bg-grid"></div>
-        <div class="hero-content">
-            <p class="hero-eyebrow"><span class="eyebrow-dot"></span> Available for Interships</p>
-            <h1 class="hero-name" id="glitchText" data-text="Your Name">Tejas Zalte</h1>
-            <p class="hero-title"><span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span></p>
-            <p class="hero-desc">
-                A 2nd year Computer Science and enggineering (Data Science) student passionate about building clean,
-                functional web experiences. Currently learning, building, and growing one project at a time.
-            </p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">View My Work</a>
-                <a href="#contact" class="btn btn-ghost">Let's Talk</a>
-            </div>
-        </div>
-        <div class="hero-visual">
-            <div class="hero-card">
-                <div class="hero-card-inner">
-                    <div class="avatar-ring">
-                        <div class="avatar-placeholder">
-                            <img src="tejas.jpg.jpeg" alt="Your Name"
-                                style="width:100%; height:100%; object-fit:cover; border-radius:50%;" />
-                        </div>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat"><span class="stat-num" data-target="2">0</span><span></span>
-                            <p>Projects</p>
-                        </div>
-                        <div class="stat"><span class="stat-num" data-target="2">0</span><span>nd</span>
-                            <p>Year Student</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="floating-badge badge-1">React</div>
-        <div class="floating-badge badge-2">UI/UX</div>
-        <div class="floating-badge badge-3">Node.js</div>
-        </div>
-        <div class="scroll-hint"><span>Scroll</span>
-            <div class="scroll-line"></div>
-        </div>
-    </section>
+  </section>
 
-    <!-- ABOUT -->
-    <section class="section about" id="about">
-        <div class="container">
-            <div class="section-label">01 — About</div>
-            <div class="about-grid">
-                <div class="about-text">
-                    <h2 class="section-heading">Turning ideas into<br /><em>digital reality</em></h2>
-                    <p>I'm a full-stack developer and UI designer based in India. I love solving complex problems with
-                        simple, elegant interfaces. When I'm not coding, I'm exploring design systems, contributing to
-                        open source, or obsessing over typography.</p>
-                    <p>My work philosophy is simple: build things that matter, ship things that work, and never stop
-                        learning.</p>
-                    <a href="#" class="btn btn-primary">Download CV</a>
-                </div>
-                <div class="about-timeline">
-                    <div class="timeline-item reveal">
-                        <div class="tl-dot"></div>
-                        <div class="tl-content"><span class="tl-year">2024 – Now</span>
-                            <h4>Senior Developer</h4>
-                            <p>Company Name · Building scalable web apps</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal">
-                        <div class="tl-dot"></div>
-                        <div class="tl-content"><span class="tl-year">2022 – 2024</span>
-                            <h4>Frontend Engineer</h4>
-                            <p>Company Name · React, TypeScript, Design Systems</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal">
-                        <div class="tl-dot"></div>
-                        <div class="tl-content"><span class="tl-year">2021 – 2022</span>
-                            <h4>Freelance Developer</h4>
-                            <p>Self · 15+ client projects delivered</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item reveal">
-                        <div class="tl-dot"></div>
-                        <div class="tl-content"><span class="tl-year">2018 – 2021</span>
-                            <h4>Computer Science Degree</h4>
-                            <p>Your University · Graduated with Honours</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <section class="stats">
 
-    <!-- SKILLS -->
-    <section class="section skills" id="skills">
-        <div class="container">
-            <div class="section-label">02 — Skills</div>
-            <h2 class="section-heading">What I work with</h2>
-            <div class="skills-grid">
-                <div class="skill-card reveal">
-                    <div class="skill-icon">⚡</div>
-                    <h3>Frontend</h3>
-                    <ul>
-                        <li>React / Next.js</li>
-                        <li>TypeScript</li>
-                        <li>Tailwind CSS</li>
-                        <li>Framer Motion</li>
-                    </ul>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="92"></div>
-                    </div>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon">🔧</div>
-                    <h3>Backend</h3>
-                    <ul>
-                        <li>Node.js / Express</li>
-                        <li>Python / Django</li>
-                        <li>REST & GraphQL</li>
-                        <li>PostgreSQL / MongoDB</li>
-                    </ul>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="80"></div>
-                    </div>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon">🎨</div>
-                    <h3>Design</h3>
-                    <ul>
-                        <li>Figma / Adobe XD</li>
-                        <li>UI/UX Design</li>
-                        <li>Design Systems</li>
-                        <li>Motion Design</li>
-                    </ul>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="88"></div>
-                    </div>
-                </div>
-                <div class="skill-card reveal">
-                    <div class="skill-icon">☁️</div>
-                    <h3>DevOps</h3>
-                    <ul>
-                        <li>Docker / Kubernetes</li>
-                        <li>AWS / Vercel</li>
-                        <li>CI/CD Pipelines</li>
-                        <li>Git / GitHub Actions</li>
-                    </ul>
-                    <div class="skill-bar">
-                        <div class="skill-fill" data-width="70"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="stat-card">
+      <h3>2+</h3>
+      <p>Projects</p>
+    </div>
 
-    <!-- PROJECTS -->
-    <section class="section projects" id="projects">
-        <div class="container">
-            <div class="section-label">03 — Work</div>
-            <h2 class="section-heading">Selected projects</h2>
-            <div class="projects-grid">
-                <div class="project-card project-featured reveal">
-                    <div class="project-img" style="background:linear-gradient(135deg,#7C3AED,#2563EB)">
-                        <div class="project-mockup">
-                            <div class="mockup-bar"></div>
-                            <div class="mockup-lines"><span></span><span></span><span></span></div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
-                        <h3>E-Commerce Platform</h3>
-                        <p>A full-stack e-commerce solution with real-time inventory, payment integration, and an admin
-                            dashboard.</p>
-                        <div class="project-links"><a href="#" class="link-btn">Live Demo ↗</a><a href="#"
-                                class="link-btn link-ghost">GitHub ↗</a></div>
-                    </div>
-                </div>
-                <div class="project-card reveal">
-                    <div class="project-img" style="background:linear-gradient(135deg,#0F766E,#0891B2)">
-                        <div class="project-mockup">
-                            <div class="mockup-bar"></div>
-                            <div class="mockup-lines"><span></span><span></span><span></span></div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags"><span>Next.js</span><span>TypeScript</span></div>
-                        <h3>SaaS Dashboard</h3>
-                        <p>Analytics dashboard with live data visualization, user management, and role-based access
-                            control.</p>
-                        <div class="project-links"><a href="#" class="link-btn">Live Demo ↗</a><a href="#"
-                                class="link-btn link-ghost">GitHub ↗</a></div>
-                    </div>
-                </div>
-                <div class="project-card reveal">
-                    <div class="project-img" style="background:linear-gradient(135deg,#DC2626,#EA580C)">
-                        <div class="project-mockup">
-                            <div class="mockup-bar"></div>
-                            <div class="mockup-lines"><span></span><span></span><span></span></div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags"><span>React Native</span><span>Firebase</span></div>
-                        <h3>Fitness Tracker App</h3>
-                        <p>Cross-platform mobile app for workout tracking with AI-powered suggestions and progress
-                            analytics.</p>
-                        <div class="project-links"><a href="#" class="link-btn">Live Demo ↗</a><a href="#"
-                                class="link-btn link-ghost">GitHub ↗</a></div>
-                    </div>
-                </div>
-                <div class="project-card reveal">
-                    <div class="project-img" style="background:linear-gradient(135deg,#7C3AED,#DB2777)">
-                        <div class="project-mockup">
-                            <div class="mockup-bar"></div>
-                            <div class="mockup-lines"><span></span><span></span><span></span></div>
-                        </div>
-                    </div>
-                    <div class="project-info">
-                        <div class="project-tags"><span>Python</span><span>FastAPI</span></div>
-                        <h3>AI Content Generator</h3>
-                        <p>Web app that leverages LLMs to generate, edit, and manage marketing content with brand voice
-                            controls.</p>
-                        <div class="project-links"><a href="#" class="link-btn">Live Demo ↗</a><a href="#"
-                                class="link-btn link-ghost">GitHub ↗</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="stat-card">
+      <h3>6+</h3>
+      <p>Skills</p>
+    </div>
 
-    <!-- CONTACT -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <div class="section-label">04 — Contact</div>
-            <div class="contact-inner">
-                <div class="contact-left">
-                    <h2 class="section-heading">Let's build<br /><em>something great</em></h2>
-                    <p>Have a project in mind, a role to fill, or just want to say hi? My inbox is always open.</p>
-                    <div class="contact-socials">
-                        <a href="https://github.com" target="_blank" class="social-link">GitHub</a>
-                        <a href="https://linkedin.com" target="_blank" class="social-link">LinkedIn</a>
-                        <a href="https://twitter.com" target="_blank" class="social-link">Twitter</a>
-                    </div>
-                </div>
-                <form class="contact-form reveal" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" id="nameInput" placeholder=" " required />
-                        <label for="nameInput">Your Name</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="emailInput" placeholder=" " required />
-                        <label for="emailInput">Your Email</label>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="messageInput" rows="4" placeholder=" " required></textarea>
-                        <label for="messageInput">Your Message</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full">
-                        <span class="btn-text">Send Message</span><span class="btn-arrow">→</span>
-                    </button>
-                    <p class="form-success" id="formSuccess">✓ Message sent! I'll get back to you soon.</p>
-                </form>
-            </div>
-        </div>
-    </section>
+    <div class="stat-card">
+      <h3>AI</h3>
+      <p>Learning</p>
+    </div>
 
-    <footer class="footer">
-        <div class="container footer-inner">
-            <p class="footer-copy">© 2025 Your Name — Crafted with care.</p>
-            <a href="#home" class="back-top">Back to top ↑</a>
-        </div>
-    </footer>
+  </section>
 
-    <script src="script.js"></script>
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="glass-card">
+
+      <p>
+        I am a Computer Science & Engineering (Data Science) student passionate about Data Analytics, Artificial
+        Intelligence,
+        and Web Development. I enjoy transforming raw data into meaningful insights using Python, SQL, Excel, and Power
+        BI.
+        I continuously work on real-world projects to strengthen my technical skills and gain practical experience.
+        My goal is to build innovative solutions that solve real problems and create value through technology.
+      </p>
+
+    </div>
+
+  </section>
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Python</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Excel</div>
+
+    </div>
+
+  </section>
+  <section id="certifications">
+
+    <h2>Certifications</h2>
+
+    <div class="certifications-grid">
+
+      <div class="cert-card">
+        <h3>Data Analytics Certification</h3>
+        <p>Issued by: Tata pvt.limited</p>
+        <a href="data analytics internship certificate.pdf">View Certificate</a>
+      </div>
+
+      <div class="cert-card">
+        <h3>Power BI Certification</h3>
+        <p>Issued by: Certification Provider</p>
+        <a href="#">View Certificate</a>
+      </div>
+
+      <div class="cert-card">
+        <h3>Python Certification</h3>
+        <p>Issued by: Certification Provider</p>
+        <a href="#">View Certificate</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <a href="Netflix Dashboard.pbix" target="_blank" class="project-link">
+
+        <div class="project-card">
+
+          <h3>📊 Netflix Analysis Dashboard Using Power BI</h3>
+
+          <p>
+            Analysis of Netflix data for finding insights
+            and supporting better business decisions.
+          </p>
+
+          <span class="view-project">
+            View Project →
+          </span>
+
+        </div>
+
+      </a>
+
+      <a href="#" target="_blank" class="project-link">
+
+        <div class="project-card">
+
+          <h3>🏨 Hotel Booking Cancellations using Excel</h3>
+
+          <p>
+            Analysis of hotel booking data to identify
+            why customers cancel reservations.
+          </p>
+
+          <span class="view-project">
+            View Project →
+          </span>
+
+        </div>
+
+      </a>
+
+    </div>
+
+  </section>
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <div class="contact-grid">
+
+      <div class="glass-card">
+        <h3>Email</h3>
+        <p>tejaszalte1383@gmail.com</p>
+      </div>
+
+      <div class="glass-card">
+        <h3>Phone</h3>
+        <p>+91 7821032131</p>
+      </div>
+
+      <div class="glass-card">
+        <h3>LinkedIn</h3>
+        <a href="https://www.linkedin.com/in/tejas-zalte-9a7b8b32b/">Visit Profile</a>
+      </div>
+
+      <div class="glass-card">
+        <h3>GitHub</h3>
+        <a href="https://github.com/TejasZalte?tab=repositories">View Projects</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Tej Zalte | Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
